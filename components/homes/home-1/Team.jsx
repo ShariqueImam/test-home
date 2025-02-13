@@ -15,11 +15,13 @@ export default function Team() {
               ”
             </div>
             <p className="h5">
-            I started Home Care Management with a simple mission – to provide compassionate and professional care to the elderly in the comfort of their own homes.
+              I started Home Care Management with a simple mission – to provide
+              compassionate and professional care to the elderly in the comfort
+              of their own homes.
             </p>
             <footer>
               <div className="section-line mb-10" />
-              Name of Owner
+              Sarah Salami
               <div className="small">Founder</div>
             </footer>
           </blockquote>
