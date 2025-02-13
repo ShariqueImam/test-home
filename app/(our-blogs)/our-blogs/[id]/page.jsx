@@ -1,41 +1,30 @@
+"use client";
 import Footer2 from "@/components/footers/Footer2";
 import Image from "next/image";
-import dynamic from "next/dynamic";
 import ContactForBlog from "@/components/myComponents/ContactForBlog";
-const ParallaxContainer = dynamic(
-  () => import("@/components/common/ParallaxContainer"),
-  {
-    ssr: false, // Disable server-side rendering
-  }
-);
 import Header10 from "@/components/headers/Header10";
 import AnimatedText from "@/components/common/AnimatedText";
 import { tags } from "@/data/tags";
-import Slider1 from "@/components/blog/sliders/Slider1";
 import { strongMultiPages } from "@/data/menu";
-import { allBlogs } from "@/data/blogs";
-export const metadata = {
-  title: "Home Care Management || Compassionate Home Care Services",
-  description:
-    "Providing high-quality, compassionate home care services tailored to support independence, dignity, and well-being. ",
-};
+import client from "@/app/client";
+import { urlForThumbnail } from "@/app/sanity-image-builder";
+import React, { useEffect, useState } from "react";
 export default function MainBlogSinglePageFullWidth({ params }) {
-  const blog = allBlogs.filter((elm) => elm.id == params.id)[0] || allBlogs[0];
-  const singleBlogData = {
-    id: 1,
-    imgSrc: "/assets/images/blog/post-prev-1.jpg",
-    title: "Spotlight — Equinox Collection by Shane Griffin",
-    text: [
-      "Looking for inspiration to kick it off, I stumbled across the work of Shane Griffin, an artist and director based in New York...",
-      "Looking for inspiration to kick it off, I stumbled across the work of Shane Griffin, an artist and director based in New York...",
-      "Looking for inspiration to kick it off, I stumbled across the work of Shane Griffin, an artist and director based in New York...",
-      "Looking for inspiration to kick it off, I stumbled across the work of Shane Griffin, an artist and director based in New York...",
-    ],
-    Category: "Cleaning",
-    authorName: "Adam Smith",
-    date: "August 3",
-    tags: ["Design", "Development", "Branding"],
-  };
+  const [DataFromSanity, setDataFromSanity] = useState([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      const data = await client.fetch(`*[_type == "blog"]`);
+      setDataFromSanity(data);
+    }
+    fetchData();
+  }, []);
+
+  // const DataFromSanity = await getData();
+  const filteredBlog = DataFromSanity.filter((elm) => elm.id == params.id);
+  console.log(filteredBlog);
+  let blog = filteredBlog[0];
+
   return (
     <>
       <div className="theme-main">
@@ -63,7 +52,7 @@ export default function MainBlogSinglePageFullWidth({ params }) {
                             className="wow charsAnimIn"
                             data-splitting="chars"
                           >
-                            <AnimatedText text={blog.title || blog.postTitle} />
+                            <AnimatedText text={blog?.title} />
                           </span>
                         </h1>
 
@@ -78,7 +67,7 @@ export default function MainBlogSinglePageFullWidth({ params }) {
                               <span className="visually-hidden">
                                 Date:
                               </span>{" "}
-                              December 25
+                              {blog?.date}
                             </a>
                           </div>
                           <div className="d-inline-block me-3">
@@ -87,14 +76,14 @@ export default function MainBlogSinglePageFullWidth({ params }) {
                               <span className="visually-hidden">
                                 Author:
                               </span>{" "}
-                              John Doe
+                              {blog?.blogAuthor}
                             </a>
                           </div>
                           <div className="d-inline-block me-3">
                             <i className="mi-folder me-1"></i>
                             <span className="visually-hidden">Categories:</span>
                             <a href="#" className="me-3">
-                              Design
+                              {blog?.blogType}
                             </a>
                           </div>
                         </div>
@@ -118,60 +107,16 @@ export default function MainBlogSinglePageFullWidth({ params }) {
                           <div className="blog-media mb-40 mb-xs-30">
                             {/* <Slider1 /> */}
                             <Image
-                              src="/assets/images/portfolio/full-project-1.jpg"
+                              // src="/assets/images/portfolio/full-project-1.jpg"
+                              src={urlForThumbnail(blog?.image)}
                               width={1350}
                               height={865}
                               alt="Image Description"
                             />
                           </div>
-                          <p className="lead">
-                            Morbi lacus massa, euismod ut turpis molestie,
-                            tristique sodales est. Integer sit amet mi id sapien
-                            tempor molestie in nec massa. Fusce non ante sed
-                            lorem rutrum feugiat.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Mauris non laoreet dui. Morbi lacus massa,
-                            euismod ut turpis molestie, tristique sodales est.
-                            Integer sit amet mi id sapien tempor molestie in nec
-                            massa.
-                          </p>
-                          <p>
-                            Fusce non ante sed lorem rutrum feugiat. Vestibulum
-                            pellentesque, purus ut&nbsp;dignissim consectetur,
-                            nulla erat ultrices purus, ut&nbsp;consequat sem
-                            elit non sem. Morbi lacus massa, euismod ut turpis
-                            molestie, tristique sodales est. Integer sit amet mi
-                            id sapien tempor molestie in nec massa. Fusce non
-                            ante sed lorem rutrum feugiat.
-                          </p>
-
-                          <p>
-                            Praesent ultricies ut ipsum non laoreet. Nunc ac
-                            leo. Nulla ac ultrices arcu. Nullam adipiscing lacus
-                            in consectetur posuere. Nunc malesuada tellus
-                            turpis, ac pretium orci molestie vel. Morbi lacus
-                            massa, euismod ut turpis molestie, tristique sodales
-                            est. Integer sit amet mi id sapien tempor molestie
-                            in nec massa. Fusce non ante sed lorem rutrum
-                            feugiat.
-                          </p>
-                          <ul>
-                            <li>First item of the list</li>
-                            <li>Second item of the list</li>
-                            <li>Third item of the list</li>
-                          </ul>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Mauris non laoreet dui. Morbi lacus massa,
-                            euismod ut turpis molestie, tristique sodales est.
-                            Integer sit amet mi id sapien tempor molestie in nec
-                            massa. Fusce non ante sed lorem rutrum feugiat.
-                            Vestibulum pellentesque, purus ut&nbsp;dignissim
-                            consectetur, nulla erat ultrices purus,
-                            ut&nbsp;consequat sem elit non sem.
-                          </p>
+                          {blog?.details.map((detail, i) => {
+                            return <p className="lead">{detail}</p>;
+                          })}
                         </div>
                       </div>
                       {/* ADDING THE TAG SECTION OF THE BLOG */}
@@ -182,8 +127,8 @@ export default function MainBlogSinglePageFullWidth({ params }) {
                             <h3 className="widget-title">Tags</h3>
                             <div className="widget-body">
                               <div className="tags">
-                                {tags.map((tag) => (
-                                  <a key={tag.id}>{tag.name}</a>
+                                {blog?.tags.map((tag) => (
+                                  <a key={tag.id}>{tag}</a>
                                 ))}
                               </div>
                             </div>

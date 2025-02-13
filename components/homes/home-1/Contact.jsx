@@ -55,17 +55,17 @@ export default function Contact() {
                 <h4 className="alt-features-title">Say hello</h4>
                 <div className="alt-features-descr clearlinks">
                   <div>
-                    <a href="mailto:dummy@dummy.com">
-                      dummy@dummy.com
+                    <a href="mailto:caregivingmanagementllc@gmail.com">
+                    caregivingmanagementllc@gmail.com
                     </a>
                   </div>
-                  <div>+1 111 111 1111</div>
+                  <a href="tel:+12406449874">+1 240 644 9874</a>
                 </div>
               </div>
             </div>
             {/* End Contact Item */}
             {/* Contact Item */}
-            <div className="col-sm-6 d-flex align-items-stretch">
+            {/* <div className="col-sm-6 d-flex align-items-stretch">
               <div
                 className="alt-features-item border-left mt-0 wow fadeScaleIn"
                 data-wow-delay=".5s"
@@ -89,7 +89,7 @@ export default function Contact() {
                  123 Dummy, New York, USA
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* End Contact Item */}
           </div>
         </div>

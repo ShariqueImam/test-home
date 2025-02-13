@@ -1,35 +1,43 @@
+"use client";
 import { blogs1 } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
+import client from "@/app/client";
+import { urlForThumbnail } from "@/app/sanity-image-builder";
+export default async function Blog() {
+  async function getData() {
+    return await client.fetch(`*[_type == "blog"]`);
+  }
 
-export default function Blog() {
+  const DataFromSanity = await getData(); // Fetch Sanity data before rendering
+
   return (
     <div className="row mt-n50">
       {/* Post Item */}
-      {blogs1.map((elm, i) => (
+      {DataFromSanity.map((elm, i) => (
         <div
           key={i}
           className="post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft"
-          data-wow-delay={elm.delay}
+          data-wow-delay="0.2s"
         >
           <div className="post-prev-container">
             <div className="post-prev-img">
               <Link href={`/our-blogs/${elm.id}`}>
-                <Image
+                <img
                   width={650}
                   height={412}
-                  src={elm.imgSrc}
+                  src={urlForThumbnail(elm.image)}
                   alt="Add Image Description"
                 />
               </Link>
             </div>
             <h4 className="post-prev-title">
-              <Link href={`/our-blogs/${elm.id}`}>
-                {elm.title}
-              </Link>
+              <Link href={`/our-blogs/${elm.id}`}>{elm.title}</Link>
             </h4>
-            <div className="post-prev-text">{elm.text}</div>
+            <div className="post-prev-text">
+              {elm.details[0].split(" ").slice(0, 10).join(" ") + "..."}
+            </div>
             <div className="post-prev-info clearfix">
               <div className="float-start">
                 {/* <a href="#">
@@ -41,7 +49,7 @@ export default function Blog() {
                     alt="Image Description"
                   />
                 </a> */}
-                <a href="#">{elm.authorName}</a>
+                <a href="#">{elm.blogAuthor}</a>
               </div>
               <div className="float-end">
                 <a href="#">{elm.date}</a>
