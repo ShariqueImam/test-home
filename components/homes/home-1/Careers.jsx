@@ -4,7 +4,7 @@ import axios from "axios";
 import emailjs from "@emailjs/browser";
 export default function Contact2() {
   const tokenWithWriteAccess =
-    "skxKVzLbfjHu0i5NGh7L4x5gfAaG3YYj4NyqcNWJpp2xog9wGHAxBk57ZildZSSNoNOzfHlLi8CYTsznZA2voWldxoqcwtKPzAUKCnDoNx9WGdgWRsS8bZ29X1AXxYoHS71AFUdlaO3zbOOvj7uRMej67QcA1xiK41KH7BzUD1WqH6dM4V0B";
+    "skxJ3DhLVSHKGHexfHHIXKfdthiBZ387ESq6oWDVT5dYsh85TByQ1FPRj33ULh6BKHV3UtaeUaJwNfY3g5GdqbZ5b89MXC2dFcX6amezhiFdINTg5d68P4EEC6CwpUM8kAryOjpvq2Htx7YETEHDO42jIH0OJOU8paGF4eel9zB2kRDkvuEQ";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -14,7 +14,7 @@ export default function Contact2() {
     event.preventDefault();
     const sendData = async () => {
       const { data } = await axios.post(
-        `https://twjj8qdq.api.sanity.io/v2021-06-07/data/mutate/production?returnIds=true`,
+        `https://nfaqwjx1.api.sanity.io/v2021-06-07/data/mutate/production?returnIds=true`,
         {
           mutations: [
             {
