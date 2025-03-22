@@ -71,7 +71,7 @@ export default function Service() {
                 Hygiene Care <span className="number">04</span>
               </a>
             </li>
-            <li role="presentation">
+            {/* <li role="presentation">
               <a
                 href="#services-item-5"
                 aria-controls="services-item-5"
@@ -81,7 +81,7 @@ export default function Service() {
               >
                 Cleaning <span className="number">05</span>
               </a>
-            </li>
+            </li> */}
           </ul>
           <div
             className="local-scroll wch-unset wow fadeInUp animated mt-12"
@@ -212,9 +212,7 @@ export default function Service() {
                 alt="Image Description"
               />
             </div>
-            {/* End Tab Content */}
-            {/* Tab Content */}
-            <div
+            {/* <div
               className="tab-pane services-content-item fade"
               id="services-item-5"
               role="tabpanel"
@@ -235,7 +233,7 @@ export default function Service() {
                 src="/assets/images/full-width-images/service-5.jpg"
                 alt="Image Description"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

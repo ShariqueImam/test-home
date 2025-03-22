@@ -4,21 +4,21 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const sections = [
-  {
-    bgImage: "/assets/images/full-width-images/1.jpg",
-    title: "Care Giving Management",
-    subtitle: "Compassionate Care Right at your Home",
-    status: "Based in State, United States",
-  },
+  // {
+  //   bgImage: "/assets/images/full-width-images/1.jpg",
+  //   title: "Care Giving Management",
+  //   subtitle: "Compassionate Care Right at your Home",
+  //   status: "Based in State, United States",
+  // },
   {
     bgImage: "/assets/images/full-width-images/2.jpg",
-    title: "Resonance Creative Studio",
+    title: "HOME CARE MANAGEMENT",
     subtitle: "Compassionate Care Right at your Home",
     status: "Based in State, United States",
   },
   {
     bgImage: "/assets/images/full-width-images/3.jpg",
-    title: "Resonance Creative Studio",
+    title: "HOME CARE MANAGEMENT",
     subtitle: "Compassionate Care Right at your Home",
     status: "Based in State, United States",
   },

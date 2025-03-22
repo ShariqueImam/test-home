@@ -56,7 +56,7 @@ export default function Contact() {
                 <div className="alt-features-descr clearlinks">
                   <div>
                     <a href="mailto:caregivingmanagementllc@gmail.com">
-                    caregivingmanagementllc@gmail.com
+                      caregivingmanagementllc@gmail.com
                     </a>
                   </div>
                   <a href="tel:+12406449874">+1 240 644 9874</a>
@@ -178,8 +178,7 @@ export default function Contact() {
           </form>
           {/* End Contact Form */}
         </div>
-        <div className="col-md-6 d-flex align-items-stretch">
-          {/* Google Map */}
+        {/* <div className="col-md-6 d-flex align-items-stretch">
           <div className="map-boxed">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3071.5318265717196!2d-75.60465104752062!3d39.660249785873326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c703f3cdadbfdb%3A0x80d20252268fc006!2zMjQ1IFF1aWdsZXkgQmx2ZCBzdGUgaywgTmV3IENhc3RsZSwgREUgMTk3MjAsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1662469609333!5m2!1suk!2sua"
@@ -191,8 +190,7 @@ export default function Contact() {
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
-          {/* End Google Map */}
-        </div>
+        </div> */}
       </div>
     </div>
   );

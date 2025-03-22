@@ -30,7 +30,7 @@ export const faqDataMain = [
     id: 1,
     question: " What services do you offer?",
     answer:
-      "We provide in-home care, companionship, personal care, hygiene assistance, cleaning, and emotional support to ensure comfort, independence, and well-being for our clients.",
+      "Caregiving Management offers a variety of essential services to support individuals in need of assistance with daily activities, medical care and companionship. These services typically include personal care such as bathing, grooming, dressing, and mobility assistance, as well as companion care for social interaction and emotional support. Our services may involve medication reminders, wound care, and monitoring vital signs. Additional offerings may include housekeeping, meal preparation, grocery shopping, and transportation for errands or medical appointments. Respite care provides temporary relief for primary caregivers, while specialized care caters to individuals with conditions like Alzheimer’s, Parkinson’s, or disabilities. Palliative and hospice care focus on comfort and emotional support during serious illness or end-of-life stages. We also can provide 24/7 care and rehabilitation support after surgery. All these services are customized to meet the unique needs of our clients, ensuring their well-being and peace of mind.",
   },
   {
     id: 2,
