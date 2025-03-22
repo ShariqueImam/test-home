@@ -44,14 +44,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="no-mobile no-touch ">
       <head>
-        <title>Home Care Management</title>
+        <title>Caregiving Management</title>
         <meta
           name="description"
-          content="Providing high-quality, compassionate home care services tailored to support independence, dignity, and well-being."
+          content="Providing high-quality, compassionate Caregiving Management  services tailored to support independence, dignity, and well-being."
         />
         <meta name="keywords" content="Next.js, SEO, Metadata, Dynamic Title" />
         <meta name="author" content="Your Name" />
-        <meta property="og:title" content="Home Care Management" />
+        <meta property="og:title" content="Caregiving Management" />
         <meta
           property="og:description"
           content="Providing high-quality, compassionate home care services tailored to support independence, dignity, and well-being."

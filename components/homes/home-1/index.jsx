@@ -149,7 +149,7 @@ export default function Home1({ onePage = false, dark = false }) {
                 className="section-descr mb-40 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                We provide the effective In-home care to make people live their
+                We provide the effective Caregiving Management to make people live their
                 lives to the fullest
               </p>
               <div className="local-scroll wow fadeInUp" data-wow-delay="0.2s">
@@ -157,7 +157,7 @@ export default function Home1({ onePage = false, dark = false }) {
                   href={`/contact`}
                   className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                 >
-                  <span>Get Home Care Now</span>
+                  <span>Get Caregiving Management Now</span>
                 </Link>
               </div>
             </div>{" "}
@@ -199,7 +199,7 @@ export default function Home1({ onePage = false, dark = false }) {
           <div className="row text-center wow fadeInUp">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
               <p className="section-descr mb-50 mb-sm-30">
-                Get in touch today for compassionate, professional home care
+                Get in touch today for compassionate, professional Caregiving Management
                 tailored to your loved one’s needs!
               </p>
               <div className="local-scroll">
@@ -316,7 +316,7 @@ export default function Home1({ onePage = false, dark = false }) {
                     href={`/contact`}
                     className="btn btn-mod btn-large btn-round btn-hover-anim"
                   >
-                    <span>Get Home Care</span>
+                    <span>Get Caregiving Management</span>
                   </Link>
                 </div>
               </div>

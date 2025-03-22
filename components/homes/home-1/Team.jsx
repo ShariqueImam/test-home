@@ -14,10 +14,8 @@ export default function Team() {
             <div className="blockquote-icon" aria-hidden="true">
               ”
             </div>
-            <p className="h5">
-              I started Home Care Management with a simple mission – to provide
-              compassionate and professional care to the elderly in the comfort
-              of their own homes.
+            <p className="h6">
+            I started Caregiving Management because I’m passionate about helping others and making a difference in their lives. I saw the need for compassionate, reliable care for those facing challenges due to aging, illness, or disability, and I wanted to offer families peace of mind with professional, empathetic support. For me, caregiving is more than just a job—it’s a calling.
             </p>
             <footer>
               <div className="section-line mb-10" />
@@ -60,13 +58,13 @@ export default function Team() {
                   <div className="team-carousel-item">
                     <div className="team-item">
                       <div className="team-item-image">
-                        <Image
+                        {/* <Image
                           width={600}
                           height={800}
                           src={member.image}
                           className="wow scaleOutIn"
                           alt="Image Description"
-                        />
+                        /> */}
                         {/* THE SOCIAL MEDIA ICONS OF THE TEAM  */}
                         {/* <div className="team-item-detail">
                           <div className="team-social-links">
@@ -86,10 +84,10 @@ export default function Team() {
                           </div>
                         </div> */}
                       </div>
-                      <div className="team-item-descr">
+                      {/* <div className="team-item-descr">
                         <div className="team-item-name">{member.name}</div>
                         <div className="team-item-role">{member.role}</div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </SwiperSlide>

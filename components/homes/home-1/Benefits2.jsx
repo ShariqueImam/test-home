@@ -36,7 +36,7 @@ export default function Benefits2() {
           <div className="w-100">
             <h2 className="section-caption mb-30 mb-xs-10">Benefits</h2>
             <h3 className="section-title mb-30">
-              Why choose Home Care Management?
+              Why choose Caregiving Management?
             </h3>
             <p className="section-descr mb-50 mb-sm-30">
               Experience compassionate, reliable home care services that
@@ -47,7 +47,7 @@ export default function Benefits2() {
             <div className="row mt-sm-n10">
               <div className="col-md-6 mt-sm-10">
                 <div className="number-3-title black">1,000+</div>
-                <div className="number-3-descr">Home Care Visits</div>
+                <div className="number-3-descr">Caregiving Management Visits</div>
               </div>
               <div className="col-md-6 mt-sm-10">
                 <div className="number-3-title black">99.9%</div>

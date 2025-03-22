@@ -18,9 +18,9 @@ import { strongMultiPages } from "@/data/menu";
 import { faqDataMain } from "@/data/faqs";
 
 export const metadata = {
-  title: "Home Care Management || Compassionate Home Care Services",
+  title: "Caregiving Management Management || Compassionate Caregiving Management Services",
   description:
-    "Providing high-quality, compassionate home care services tailored to support independence, dignity, and well-being. ",
+    "Providing high-quality, compassionate Caregiving Management services tailored to support independence, dignity, and well-being. ",
 };
 export default function MainAboutPage1() {
   return (
@@ -87,7 +87,7 @@ export default function MainAboutPage1() {
                           href={`/contact`}
                           className="btn btn-mod btn-large btn-round btn-hover-anim"
                         >
-                          <span>Get Home Care</span>
+                          <span>Get Caregiving Management</span>
                         </Link>
                       </div>
                     </div>
@@ -120,8 +120,7 @@ export default function MainAboutPage1() {
                   <div className="row wow fadeInUp">
                     <div className="col-md-6 offset-md-1 col-lg-5 offset-lg-2 text-md-start mb-sm-30">
                       <p className="section-descr mb-0">
-                        Reach out today for compassionate, professional home
-                        care services designed to support comfort, independence,
+                        Reach out today for compassionate, professional Caregiving Management services designed to support comfort, independence,
                         and well-being for your loved ones.
                       </p>
                     </div>

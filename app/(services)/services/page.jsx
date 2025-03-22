@@ -21,9 +21,9 @@ import Pricing from "@/components/homes/home-1/Pricing";
 import Image from "next/image";
 import { strongMultiPages } from "@/data/menu";
 export const metadata = {
-  title: "Home Care Management || Compassionate Home Care Services",
+  title: "Caregiving Management Management || Compassionate Caregiving Management Services",
   description:
-    "Providing high-quality, compassionate home care services tailored to support independence, dignity, and well-being. ",
+    "Providing high-quality, compassionate Caregiving Management services tailored to support independence, dignity, and well-being. ",
 };
 export default function MainServicesPage3() {
   return (
@@ -71,7 +71,7 @@ export default function MainServicesPage3() {
                             data-wow-delay="0.6s"
                             data-wow-duration="1.2s"
                           >
-                            Comprehensive Home Care Services for Comfort,
+                            Comprehensive Caregiving Management Services for Comfort,
                             Independence, and Well-Being
                           </p>
                         </div>
@@ -117,7 +117,7 @@ export default function MainServicesPage3() {
               <div className="page-section  pt-0 pb-0 scroll-nav-invisible z-index-1">
                 <div className="page-section container position-relative scroll-nav-invisible">
                   {/* Decoration Image */}
-                  <div
+                  {/* <div
                     className="decoration-image-1"
                     data-rellax-y=""
                     data-rellax-speed="0.5"
@@ -129,7 +129,7 @@ export default function MainServicesPage3() {
                       width={336}
                       height={406}
                     />
-                  </div>
+                  </div> */}
                   {/* End Decoration Image */}
                   {/* Decoration Image */}
                   <div
@@ -149,8 +149,7 @@ export default function MainServicesPage3() {
                   <div className="row text-center">
                     <div className="col-md-8 offset-md-2">
                       <p className="section-descr mb-50 mb-sm-40">
-                        Reach out today for compassionate, professional home
-                        care services designed to support comfort, independence,
+                        Reach out today for compassionate, professional Caregiving Management services designed to support comfort, independence,
                         and well-being for your loved ones.{" "}
                       </p>
                       <div className="local-scroll">
@@ -182,10 +181,10 @@ export default function MainServicesPage3() {
                 <div className="row wow fadeInUp">
                   <div className="col-md-7 offset-md-5 col-lg-6 offset-lg-6 col-xl-5 offset-xl-7">
                     <h2 className="section-title mb-40 mb-sm-30">
-                      Our Specialized Home Care Services
+                      Our Specialized Caregiving Management Services
                     </h2>
                     <p className="mb-50 mb-sm-40">
-                      We offer personalized, compassionate home care services
+                      We offer personalized, compassionate Caregiving Management services
                       designed to support independence, comfort, and well-being,
                       ensuring your loved ones receive the highest quality care
                       tailored to their needs

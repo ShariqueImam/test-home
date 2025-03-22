@@ -53,7 +53,7 @@ export default function MainAboutPage1() {
                                 className="wow charsAnimIn"
                                 data-splitting="chars"
                               >
-                                Let's Get In-Home Care Now
+                                Let's Get Caregiving Management Now
                               </span>
                             </h1>
                           </div>

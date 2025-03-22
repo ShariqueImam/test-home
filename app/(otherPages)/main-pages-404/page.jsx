@@ -3,10 +3,9 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 export const metadata = {
-  title:
-    "Main About 1 || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Caregiving Management Management || Compassionate Caregiving Management Services",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Providing high-quality, compassionate Caregiving Management services tailored to support independence, dignity, and well-being. ",
 };
 export default function MainAboutPage1() {
   return (

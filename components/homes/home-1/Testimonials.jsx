@@ -13,7 +13,7 @@ export default function Testimonials() {
               <div className="col-md-10 offset-md-1 text-center">
                 <h2 className="section-title mb-70 mb-sm-40">
                   What our clients say about our compassionate
-                  <span className="mark-decoration-1"> In-home care</span>
+                  <span className="mark-decoration-1"> Caregiving Management</span>
                 </h2>
               </div>
             </div>

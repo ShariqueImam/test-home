@@ -19,9 +19,9 @@ export const faqs = [
   },
   {
     id: 4,
-    question: "04. Get Home Care",
+    question: "04. Get Caregiving Management",
     answer:
-      "Our compassionate caregivers start providing high-quality, personalized home care to support your loved one.",
+      "Our compassionate caregivers start providing high-quality, personalized Caregiving Management to support your loved one.",
   },
 ];
 
@@ -34,7 +34,7 @@ export const faqDataMain = [
   },
   {
     id: 2,
-    question: "How do I get started with home care services?",
+    question: "How do I get started with Caregiving Management services?",
     answer:
       "Simply contact us, discuss your requirements, finalize the details, and our professional caregivers will begin providing personalized care tailored to your needs.",
   },
@@ -42,7 +42,7 @@ export const faqDataMain = [
     id: 3,
     question: "Are your caregivers trained and experienced?",
     answer:
-      "Yes, our caregivers are highly trained, experienced, and dedicated professionals committed to delivering compassionate, high-quality home care services with respect and dignity.",
+      "Yes, our caregivers are highly trained, experienced, and dedicated professionals committed to delivering compassionate, high-quality Caregiving Management services with respect and dignity.",
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ export const faqDataMain = [
   },
   {
     id: 5,
-    question: "Do you provide 24/7 home care services?",
+    question: "Do you provide 24/7 Caregiving Management services?",
     answer:
       "Yes, we offer flexible care options, including 24/7 support, to ensure your loved one receives continuous, compassionate care when needed.",
   },

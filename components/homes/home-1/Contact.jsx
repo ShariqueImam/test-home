@@ -12,7 +12,7 @@ export default function Contact() {
               <h2 className="section-caption mb-xs-10">Contact Us</h2>
               <h3 className="section-title mb-0">
                 <span className="wow charsAnimIn" data-splitting="chars">
-                  <AnimatedText text="Let’s get the In-Home Care" />
+                  <AnimatedText text="Let’s get the Caregiving Management" />
                 </span>
               </h3>
             </div>

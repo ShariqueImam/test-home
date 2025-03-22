@@ -191,7 +191,7 @@ export const services6 = [
     width: 48,
     height: 64,
     path: "M16 18.75l32 32-4.25 4.25-32-32zM18.625 27l25.125 25.125 1.375-1.375-25.125-25.25zM15 13v-5h2v5h-2zM15 38.5v-5h2v5h-2zM27 24v-2h5v2h-5zM0 24v-2h5v2h-5zM5.875 11.75l3.625 3.625-1.5 1.375-3.5-3.5zM9.5 31.25l-3.625 3.5-1.375-1.375 3.5-3.5zM27.5 13.25l-3.5 3.5-1.5-1.375 3.625-3.625z",
-    title: "In-Home Care",
+    title: "Caregiving Management",
     text: "Providing professional, compassionate assistance to help individuals maintain independence and comfort in their own homes with personalized support",
   },
   {

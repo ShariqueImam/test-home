@@ -75,7 +75,7 @@ export default function Contact2() {
             <h2 className="h5">Don't hesitate to reach out to us.</h2>
 
             <p className="text-gray mb-0">
-              Ready to get started with Home Care Management? Fill out the form
+              Ready to get started with Caregiving Management? Fill out the form
               below, and one of our team members will reach out to you shortly.
             </p>
           </div>

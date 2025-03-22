@@ -18,7 +18,7 @@ export default function Header10({ links }) {
             width={176}
             height={34}
           /> */}
-          <h5> Home Care Management</h5>
+          <h5> Caregiving Management</h5>
         </a>
       </div>
       {/* Mobile Menu Button */}

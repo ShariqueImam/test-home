@@ -9,19 +9,19 @@ export const numberItems = [
     id: 2,
     delay: "0.6s",
     title: "1k+",
-    description: "In-home care visits completed",
+    description: "Caregiving Management visits completed",
   },
   {
     id: 3,
     delay: "0.8s",
     title: "120+",
-    description: "Happy In-home care Customers",
+    description: "Happy Caregiving Management Customers",
   },
   {
     id: 4,
     delay: "1s",
     title: "7+",
-    description: "In-Home care services available",
+    description: "Caregiving Management services available",
   },
 ];
 export const numberItems2 = [

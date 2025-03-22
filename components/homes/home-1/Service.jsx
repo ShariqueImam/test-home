@@ -9,7 +9,7 @@ export default function Service() {
         <div className="col-lg-6 mb-md-60 mb-sm-30">
           <h2 className="section-caption mb-xs-10">Our Services</h2>
           <h3 className="section-title mb-30">
-            <AnimatedText text="We provide the best In-Home Care" />
+            <AnimatedText text="We provide the best Caregiving Management" />
           </h3>
           <div className="row">
             <div className="col-lg-10">
@@ -35,7 +35,7 @@ export default function Service() {
                 aria-selected="true"
                 data-bs-toggle="tab"
               >
-                In-Home Care <span className="number">01</span>
+                Caregiving Management <span className="number">01</span>
               </a>
             </li>
             <li role="presentation">
@@ -123,7 +123,7 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">In-Home Care</h4>
+                  <h4 className="services-title">Caregiving Management</h4>
                   <p className="text-gray mb-0">
                     Providing professional, compassionate support to help
                     individuals maintain independence and comfort in their own

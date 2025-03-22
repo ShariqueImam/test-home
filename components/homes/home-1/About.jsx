@@ -45,10 +45,7 @@ export default function About() {
         </p>
         <h4 className="h5">Our Experience</h4>
         <p className="text-gray">
-          With a background in Home Care management and years of hands-on
-          experience, I have worked with numerous families to ensure their loved
-          ones receive the best care possible. Our team is trained to provide
-          not only medical support but also emotional and social companionship.
+        With a background in Caregiving and years of hands-on experience, we have worked with numerous families to ensure their loved ones receive the best care possible. Our team is trained to provide not only medical support but also emotional and social companionship.
         </p>
         <div
           className="local-scroll wch-unset wow fadeInUp animated"

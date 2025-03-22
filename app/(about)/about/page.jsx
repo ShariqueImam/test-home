@@ -27,9 +27,9 @@ import Faq from "@/components/homes/home-1/Faq";
 import { strongMultiPages } from "@/data/menu";
 
 export const metadata = {
-  title: "Home Care Management || Compassionate Home Care Services",
+  title: "Caregiving Management Management || Compassionate Caregiving Management Services",
   description:
-    "Providing high-quality, compassionate home care services tailored to support independence, dignity, and well-being. ",
+    "Providing high-quality, compassionate Caregiving Management services tailored to support independence, dignity, and well-being. ",
 };
 export default function MainAboutPage1() {
   return (
@@ -65,7 +65,7 @@ export default function MainAboutPage1() {
                             className="wow charsAnimIn"
                             data-splitting="chars"
                           >
-                            <AnimatedText text="Welcome to Home Care Mangement" />
+                            <AnimatedText text="Welcome to Caregiving Management" />
                           </span>
                         </h1>
                         <div className="row">
@@ -75,7 +75,7 @@ export default function MainAboutPage1() {
                               data-wow-delay="0.6s"
                               data-wow-duration="1.2s"
                             >
-                              Dedicated to Compassionate, Personalized Home Care
+                              Dedicated to Compassionate, Personalized Caregiving Management
                               for Comfort, Dignity, and Independence.
                             </p>
                           </div>

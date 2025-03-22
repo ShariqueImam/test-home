@@ -111,10 +111,10 @@ export default function Contact2() {
       <div className="row">
         <div className="">
           <div className="pe-lg-5">
-            <h2 className="h5">Do you want to join our home care team?</h2>
+            <h2 className="h5">Do you want to join our Caregiving Management team?</h2>
             <p className="text-gray mb-0">
               Are you passionate about providing compassionate care? Join the
-              team at Home Care Management and make a difference in the lives of
+              team at Caregiving Management and make a difference in the lives of
               the elderly.{" "}
             </p>
             <p className="text-gray mb-0">

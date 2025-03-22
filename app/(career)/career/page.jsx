@@ -17,9 +17,9 @@ import Careers from "@/components/homes/home-1/Careers";
 
 const dark = false;
 export const metadata = {
-  title: "Home Care Management || Compassionate Home Care Services",
+  title: "Caregiving Management Management || Compassionate Caregiving Management Services",
   description:
-    "Providing high-quality, compassionate home care services tailored to support independence, dignity, and well-being. ",
+    "Providing high-quality, compassionate Caregiving Management services tailored to support independence, dignity, and well-being. ",
 };
 export default function MainAboutPage1() {
   return (
@@ -58,7 +58,7 @@ export default function MainAboutPage1() {
                                 className="wow charsAnimIn"
                                 data-splitting="chars"
                               >
-                                Want to join Home Care Management
+                                Want to join Caregiving Management
                               </span>
                             </h1>
                           </div>
@@ -107,7 +107,7 @@ export default function MainAboutPage1() {
                         Frequently Asked Questions
                       </h3>
                       <p className="text-gray mb-0">
-                        Find answers to common questions about our home care
+                        Find answers to common questions about our Caregiving Management
                         services, caregiver qualifications, personalized care
                         plans, safety measures, and how we ensure comfort,
                         dignity, and well-being for your loved ones

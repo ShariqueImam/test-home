@@ -12,13 +12,13 @@ const sections = [
   // },
   {
     bgImage: "/assets/images/full-width-images/2.jpg",
-    title: "HOME CARE MANAGEMENT",
+    title: "Caregiving Management",
     subtitle: "Compassionate Care Right at your Home",
     status: "Based in State, United States",
   },
   {
     bgImage: "/assets/images/full-width-images/3.jpg",
-    title: "HOME CARE MANAGEMENT",
+    title: "Caregiving Management",
     subtitle: "Compassionate Care Right at your Home",
     status: "Based in State, United States",
   },
