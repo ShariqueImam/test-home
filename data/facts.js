@@ -9,13 +9,13 @@ export const numberItems = [
     id: 2,
     delay: "0.6s",
     title: "1k+",
-    description: "Caregiving Management visits completed",
+    description: "Visits completed",
   },
   {
     id: 3,
     delay: "0.8s",
-    title: "120+",
-    description: "Happy Caregiving Management Customers",
+    title: "Many",
+    description: "Happy Customers",
   },
   {
     id: 4,

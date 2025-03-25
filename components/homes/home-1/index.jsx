@@ -149,15 +149,15 @@ export default function Home1({ onePage = false, dark = false }) {
                 className="section-descr mb-40 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                We provide the effective Caregiving Management to make people live their
-                lives to the fullest
+                We provide the care to make people live their lives to the
+                fullest
               </p>
               <div className="local-scroll wow fadeInUp" data-wow-delay="0.2s">
                 <Link
                   href={`/contact`}
                   className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                 >
-                  <span>Get Caregiving Management Now</span>
+                  <span>Get Care Now</span>
                 </Link>
               </div>
             </div>{" "}
@@ -199,8 +199,8 @@ export default function Home1({ onePage = false, dark = false }) {
           <div className="row text-center wow fadeInUp">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
               <p className="section-descr mb-50 mb-sm-30">
-                Get in touch today for compassionate, professional Caregiving Management
-                tailored to your loved one’s needs!
+                Get in touch today for compassionate, professional Caregiving
+                Management tailored to your loved one’s needs!
               </p>
               <div className="local-scroll">
                 {onePage ? (
@@ -256,22 +256,6 @@ export default function Home1({ onePage = false, dark = false }) {
             {/* Images */}
             <div className="col-lg-7 d-flex align-items-start mb-md-60 mb-xs-30">
               <div className="call-action-2-images">
-                <div
-                  className="call-action-2-image-1"
-                  data-rellax-y=""
-                  data-rellax-speed="0.5"
-                  data-rellax-percentage="0.7"
-                >
-                  <Image
-                    width={386}
-                    height={400}
-                    src="/assets/images/promo-3.jpg"
-                    alt="Image Description"
-                    className="wow scaleOutIn"
-                    data-wow-duration="1.2s"
-                    data-wow-offset={255}
-                  />
-                </div>
                 <div className="call-action-2-image-2">
                   <Image
                     width={610}
@@ -281,22 +265,6 @@ export default function Home1({ onePage = false, dark = false }) {
                     className="wow scaleOutIn"
                     data-wow-duration="1.2s"
                     data-wow-offset={134}
-                  />
-                </div>
-                <div
-                  className="call-action-2-image-3"
-                  data-rellax-y=""
-                  data-rellax-speed="-0.5"
-                  data-rellax-percentage="0.5"
-                >
-                  <Image
-                    width={386}
-                    height={500}
-                    src="/assets/images/promo-4.jpg"
-                    alt="Image Description"
-                    className="wow scaleOutIn"
-                    data-wow-duration="1.2s"
-                    data-wow-offset={0}
                   />
                 </div>
               </div>
@@ -345,7 +313,7 @@ export default function Home1({ onePage = false, dark = false }) {
               <h2 className="section-caption mb-xs-10">Our Blogs</h2>
               <h3 className="section-title mb-0">
                 <span className="wow charsAnimIn" data-splitting="chars">
-                  Latest from our side
+                  Latest News
                 </span>
               </h3>
             </div>

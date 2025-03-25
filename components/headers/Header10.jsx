@@ -10,15 +10,15 @@ export default function Header10({ links }) {
       {/* Logo  (* Add your text or image to the link tag. Use SVG or PNG image format. 
               If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
               image size for support of retina screens. See details in the template documentation. *) */}
-      <div className="nav-logo-wrap local-scroll">
+      <div className="nav-logo-wrap local-scroll d-flex align-items-center justify-content-center"> 
         <a href="#top" className="logo">
-          {/* <Image
-            src="/assets/images/demo-strong/logo-white.svg"
-            alt="Your Company Logo"
-            width={176}
-            height={34}
-          /> */}
-          <h5> Caregiving Management</h5>
+        <Image
+          src="/assets/images/full-width-images/logo-new.jpg"
+          alt="Your Company Logo"
+          width={120}
+          height={120}
+        />
+        <h5> Caregiving Management</h5>
         </a>
       </div>
       {/* Mobile Menu Button */}
@@ -47,15 +47,15 @@ export default function Header10({ links }) {
                   data-link-animate="y"
                 >
                   <span className="link-strong link-strong-unhovered">
-                    <span className="icon-ellipse me-1 text-black" /> Get Home
-                    Care
+                    <span className="icon-ellipse me-1 text-black" /> Get Care
+                    Today
                   </span>
                   <span
                     className="link-strong link-strong-hovered"
                     aria-hidden="true"
                   >
-                    <span className="icon-ellipse me-1 text-black" /> Get Home
-                    Care
+                    <span className="icon-ellipse me-1 text-black" /> Get Care
+                    Today
                   </span>
                 </span>
               </Link>

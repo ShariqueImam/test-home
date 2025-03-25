@@ -16,7 +16,6 @@ import Contact2 from "@/components/homes/home-1/Contact2";
 const dark = false;
 
 export default function MainAboutPage1() {
- 
   return (
     <>
       <div className="theme-main">
@@ -46,7 +45,7 @@ export default function MainAboutPage1() {
                               className="section-caption-border mb-30 mb-xs-20 wow fadeInUp"
                               data-wow-duration="1.2s"
                             >
-                              Contact Us
+                              <a href="#contactForm"> Contact Us</a>
                             </h2>
                             <h1 className="hs-title-1 mb-0">
                               <span
@@ -68,7 +67,7 @@ export default function MainAboutPage1() {
             </section>
             <>
               {/* Contact Section */}
-              <section className="page-section pt-0" id="contact">
+              <section className="page-section pt-0" id="contactForm">
                 <Contact2 />
               </section>
               {/* End Contact Section */}

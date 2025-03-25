@@ -58,7 +58,8 @@ export default function MainAboutPage1() {
                           className="section-caption-border mb-30 mb-xs-20 wow fadeInUp"
                           data-wow-duration="1.2s"
                         >
-                          About Our Company
+                          <a href="#aboutDetails"> About Our Company</a>
+                        
                         </h2>
                         <h1 className="hs-title-1 mb-30">
                           <span
@@ -108,12 +109,12 @@ export default function MainAboutPage1() {
               className={`page-section scrollSpysection ${
                 dark ? "bg-dark-1 light-content" : ""
               }`}
-              id="about"
+              id="aboutDetails"
             >
-              <div className="container position-relative">
-                <div className="row mb-60 mb-xs-30">
+              <div className="container position-relative" >
+                <div className="row mb-60 mb-xs-30" >
                   <div className="col-md-6">
-                    <h2 className="section-caption mb-xs-10">Our Story</h2>
+                    <h2 className="section-caption mb-xs-10" >Our Story</h2>
                     <h3 className="section-title mb-0">
                       <AnimatedText text="Learn about our experience and vision" />
                     </h3>

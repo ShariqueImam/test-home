@@ -14,13 +14,13 @@ const sections = [
     bgImage: "/assets/images/full-width-images/2.jpg",
     title: "Caregiving Management",
     subtitle: "Compassionate Care Right at your Home",
-    status: "Based in State, United States",
+    status: "Located in Urbana , MD (USA)",
   },
   {
     bgImage: "/assets/images/full-width-images/3.jpg",
     title: "Caregiving Management",
     subtitle: "Compassionate Care Right at your Home",
-    status: "Based in State, United States",
+    status: "Located in Urbana , MD (USA)",
   },
 ];
 

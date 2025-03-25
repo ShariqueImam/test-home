@@ -135,7 +135,7 @@ export default function Service() {
                 width={945}
                 height={1016}
                 className="services-image"
-                src="/assets/images/full-width-images/service-1.jpg"
+                src="/assets/images/full-width-images/service-1.png"
                 alt="Image Description"
               />
             </div>

@@ -17,7 +17,7 @@ export default function Footer2() {
         <div className="row">
           {/* Copyright */}
           <div className="col-lg-3 text-center text-lg-start mb-md-50">
-            © Home Care Management {new Date().getFullYear()}.
+            © CAREGIVING MANAGEMENT {new Date().getFullYear()}.
           </div>
           {/* End Copyright */}
           {/* Social Links */}
