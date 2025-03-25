@@ -1,8 +1,8 @@
-
+"use client";
 import { blogs1 } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import client from "@/app/client";
 import { urlForThumbnail } from "@/app/sanity-image-builder";
 export default async function Blog() {
