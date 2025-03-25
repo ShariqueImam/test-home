@@ -1,4 +1,4 @@
-"use client";
+
 import { blogs1 } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,7 +11,7 @@ export default async function Blog() {
   }
 
   const DataFromSanity = await getData(); // Fetch Sanity data before rendering
-
+  console.log(DataFromSanity);
   return (
     <div className="row mt-n50">
       {/* Post Item */}

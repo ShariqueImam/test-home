@@ -22,7 +22,6 @@ export default function MainBlogSinglePageFullWidth({ params }) {
 
   // const DataFromSanity = await getData();
   const filteredBlog = DataFromSanity.filter((elm) => elm.id == params.id);
-  console.log(filteredBlog);
   let blog = filteredBlog[0];
 
   return (
