@@ -11,7 +11,7 @@ export default async function Blog() {
   }
 
   const DataFromSanity = await getData(); // Fetch Sanity data before rendering
-  console.log(DataFromSanity);
+
   return (
     <div className="row mt-n50">
       {/* Post Item */}

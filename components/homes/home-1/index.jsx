@@ -317,18 +317,9 @@ export default function Home1({ onePage = false, dark = false }) {
                 </span>
               </h3>
             </div>
-            {/* <div className="col-md-5 offset-md-1 text-start text-md-end pt-40 pt-sm-20">
-              <Link
-                href={`/main-blog-columns-2col`}
-                className="link-hover-anim underline align-middle"
-                data-link-animate="y"
-              >
-                Read more in our blog <i className="mi-arrow-right size-18" />
-              </Link>
-            </div> */}
           </div>
           {/*   qQQQQQQQQQQQQQQQQQQQQ */}
-          <Blog />
+          {/* <Blog /> */}
           {/* Blog Posts Grid */}
 
           {/* End Blog Posts Grid */}
