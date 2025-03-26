@@ -10,7 +10,7 @@ export default function NewsLetter() {
     event.preventDefault();
     const sendData = async () => {
       const { data } = await axios.post(
-        `https://twjj8qdq.api.sanity.io/v2021-06-07/data/mutate/production?returnIds=true`,
+        `https://nfaqwjx1.api.sanity.io/v2021-06-07/data/mutate/production?returnIds=true`,
         {
           mutations: [
             {
