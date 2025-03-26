@@ -5,17 +5,27 @@ import Link from "next/link";
 import React from "react";
 import client from "@/app/client";
 import { urlForThumbnail } from "@/app/sanity-image-builder";
+
 export default async function Blog() {
+  // const [Data, setData] = React.useState(null); // Store data in state
+
+  // async function GetProducts() {
+  //   let data = await client.fetch(`*[_type == "blog"]`);
+  //   setData(data);
+  // }
+
+  // React.useEffect(() => {
+  //   GetProducts();
+  // }, []);
+
   async function getData() {
     return await client.fetch(`*[_type == "blog"]`);
   }
-
-  const DataFromSanity = await getData(); // Fetch Sanity data before rendering
+  const DataFromSanity = await getData();
 
   return (
     <div className="row mt-n50">
-      {/* Post Item */}
-      {DataFromSanity.map((elm, i) => (
+      {DataFromSanity?.map((elm, i) => (
         <div
           key={i}
           className="post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft"
@@ -40,15 +50,6 @@ export default async function Blog() {
             </div>
             <div className="post-prev-info clearfix">
               <div className="float-start">
-                {/* <a href="#">
-                  <Image
-                    className="post-prev-author-img"
-                    width={30}
-                    height={30}
-                    src={elm.authorImg}
-                    alt="Image Description"
-                  />
-                </a> */}
                 <a href="#">{elm.blogAuthor}</a>
               </div>
               <div className="float-end">
@@ -58,10 +59,10 @@ export default async function Blog() {
           </div>
         </div>
       ))}
-      {/* End Post Item */}
-      {/* Post Item */}
-
-      {/* End Post Item */}
     </div>
+
+    // <div className="row mt-n50">
+
+    // </div>
   );
 }
