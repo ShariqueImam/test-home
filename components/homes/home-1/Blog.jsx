@@ -22,7 +22,7 @@ export default async function Blog() {
     return await client.fetch(`*[_type == "blog"]`);
   }
   const DataFromSanity = await getData();
-console.log('t')
+console.log('1t')
   return (
     <div className="row mt-n50">
       {DataFromSanity?.map((elm, i) =>(
