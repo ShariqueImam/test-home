@@ -4,7 +4,9 @@ import axios from "axios";
 import emailjs from "@emailjs/browser";
 export default function NewsLetter() {
   const tokenWithWriteAccess =
-    "skxKVzLbfjHu0i5NGh7L4x5gfAaG3YYj4NyqcNWJpp2xog9wGHAxBk57ZildZSSNoNOzfHlLi8CYTsznZA2voWldxoqcwtKPzAUKCnDoNx9WGdgWRsS8bZ29X1AXxYoHS71AFUdlaO3zbOOvj7uRMej67QcA1xiK41KH7BzUD1WqH6dM4V0B";
+    "sk1EzSFyPxbA4Dj6jHqNXKpTAW2oUFyMfvq5zjZghErma21Es6XVjLZWuBDE1iDaBOR8WbHYnmG3kLLgUhtr7QGFK1aqxenxR0l4YOOPW9jeACnV60UFcTYljm5jsBrOJnnDPYanGeWFt1hXwxLq1ejH48e9PwatoeoPD6l9wJYktnRScGI0";
+  // const tokenWithWriteAccess =
+  //   "skxKVzLbfjHu0i5NGh7L4x5gfAaG3YYj4NyqcNWJpp2xog9wGHAxBk57ZildZSSNoNOzfHlLi8CYTsznZA2voWldxoqcwtKPzAUKCnDoNx9WGdgWRsS8bZ29X1AXxYoHS71AFUdlaO3zbOOvj7uRMej67QcA1xiK41KH7BzUD1WqH6dM4V0B";
   const [email, setEmail] = useState("");
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -54,7 +56,7 @@ export default function NewsLetter() {
     if (email != "") {
       // sendEmail();
       sendData();
-      setEmail("");
+      // setEmail("");
     }
   };
   return (
