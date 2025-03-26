@@ -319,7 +319,7 @@ export default function Home1({ onePage = false, dark = false }) {
             </div>
           </div>
           {/*   qQQQQQQQQQQQQQQQQQQQQ */}
-          {/* <Blog /> */}
+          <Blog />
           {/* Blog Posts Grid */}
 
           {/* End Blog Posts Grid */}
