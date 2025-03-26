@@ -22,10 +22,10 @@ export default async function Blog() {
     return await client.fetch(`*[_type == "blog"]`);
   }
   const DataFromSanity = await getData();
-
+console.log('t')
   return (
     <div className="row mt-n50">
-      {DataFromSanity?.map((elm, i) => (
+      {DataFromSanity?.map((elm, i) =>(
         <div
           key={i}
           className="post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft"
