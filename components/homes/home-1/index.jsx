@@ -4,7 +4,6 @@ import Benefits from "@/components/homes/home-1/Benefits";
 import Blog from "@/components/homes/home-1/Blog";
 import Brands from "@/components/homes/home-1/Brands";
 import Contact from "@/components/homes/home-1/Contact";
-
 import Facts from "@/components/homes/home-1/Facts";
 import Faq from "@/components/homes/home-1/Faq";
 import Features from "@/components/homes/home-1/Features";
@@ -21,9 +20,7 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 const ParallaxContainer = dynamic(
   () => import("@/components/common/ParallaxContainer"),
-  {
-    ssr: false, // Disable server-side rendering
-  }
+  { ssr: false }
 );
 export default function Home1({ onePage = false, dark = false }) {
   return (
@@ -319,7 +316,9 @@ export default function Home1({ onePage = false, dark = false }) {
             </div>
           </div>
           {/*   qQQQQQQQQQQQQQQQQQQQQ */}
+          {/* {DataFromSanity && <Blog DataFromSanity={DataFromSanity} />} */}
           <Blog />
+
           {/* Blog Posts Grid */}
 
           {/* End Blog Posts Grid */}
