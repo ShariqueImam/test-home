@@ -1,3 +1,4 @@
+"use client";
 import AnimatedText from "@/components/common/AnimatedText";
 import About from "@/components/homes/home-1/About";
 import Benefits from "@/components/homes/home-1/Benefits";
