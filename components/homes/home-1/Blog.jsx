@@ -25,6 +25,7 @@ export default function Blog() {
   // }
   // const DataFromSanity = await getData();
   // console.log("1t1");
+
   return (
     <div className="row mt-n50">
       {elements?.map((elm) => (
