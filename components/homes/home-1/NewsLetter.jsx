@@ -56,7 +56,7 @@ export default function NewsLetter() {
     if (email != "") {
       // sendEmail();
       sendData();
-      // setEmail("");
+      setEmail("");
     }
   };
   return (

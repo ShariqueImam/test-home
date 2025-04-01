@@ -9,8 +9,8 @@ export default function Contact2() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [isSent, setisSent] = useState(false);
   const handleSubmit = (event) => {
-    console.log("first");
     event.preventDefault();
     const sendData = async () => {
       const { data } = await axios.post(
@@ -65,7 +65,14 @@ export default function Contact2() {
       setEmail("");
       setPhone("");
       setMessage("");
+      setisSent(true);
     }
+    const flashTime = setTimeout(() => {
+      setisSent(false);
+    }, 2500);
+    return () => {
+      clearTimeout(flashTime);
+    };
   };
   return (
     <div className="container position-relative">
@@ -229,6 +236,12 @@ export default function Contact2() {
               />
             </div>
             <div className="row">
+              {isSent && (
+                <p className="text-white bg-warning p-3 rounded">
+                  Your message has been sent. Our team will respond within 24
+                  hours
+                </p>
+              )}
               <div className="col-lg-5">
                 {/* Send Button */}
                 <div className="pt-20">
@@ -243,13 +256,12 @@ export default function Contact2() {
                   </button>
                 </div>
               </div>
-              <div className="col-lg-7">
-                {/* Inform Tip */}
+              {/* <div className="col-lg-7">
                 <div className="form-tip pt-20 pt-sm-0 mt-sm-20">
                   <i className="icon-info size-16" />
                   All the fields are required.
                 </div>
-              </div>
+              </div> */}
             </div>
             <div
               id="result"

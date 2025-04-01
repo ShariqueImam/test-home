@@ -24,6 +24,7 @@ export default function Contact2() {
   const [gender, setGender] = useState("");
   const [race, setRace] = useState("");
   const [veteranStatus, setVeteranStatus] = useState("");
+  const [isSent, setisSent] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -95,20 +96,35 @@ export default function Contact2() {
     };
 
     if (name != "" && email != "" && phone != "") {
-      sendData();
       // sendEmail();
+      sendData();
+      setResumeFile(null);
       setName("");
       setEmail("");
-      setPhone("");
+      setAddress("");
       setCity("");
       setState("");
       setZip("");
+      setPhone("");
       setCoverLetter("");
+      setDriveLicense("");
+      setBackgroundCheck("");
+      setDrugTest("");
+      setWorkingHours("");
+      setGender("");
+      setRace("");
+      setVeteranStatus("");
+      setisSent(true);
     }
+    const flashTime = setTimeout(() => {
+      setisSent(false);
+    }, 2500);
+    return () => {
+      clearTimeout(flashTime);
+    };
   };
   return (
     <div className="container position-relative">
-     
       <div className="row wow fadeInUp" data-wow-delay="0.5s">
         <div className=" mb-sm-50">
           {/* Contact Form */}
@@ -779,6 +795,13 @@ export default function Contact2() {
             </div>
             {/* THIS IS THE START OF THE BUTTON OF THE SUBMIT */}
             <div className="row">
+              {" "}
+              {isSent && (
+                <p className="text-white bg-warning p-3 rounded">
+                  Your message has been sent. Our team will respond within 24
+                  hours
+                </p>
+              )}
               <div className="col-lg-5">
                 {/* Send Button */}
                 <div className="pt-20">
@@ -793,13 +816,12 @@ export default function Contact2() {
                   </button>
                 </div>
               </div>
-              <div className="col-lg-7">
-                {/* Inform Tip */}
+              {/* <div className="col-lg-7">
                 <div className="form-tip pt-20 pt-sm-0 mt-sm-20">
                   <i className="icon-info size-16" />
                   All the fields are required.
                 </div>
-              </div>
+              </div> */}
             </div>
             <div
               id="result"
