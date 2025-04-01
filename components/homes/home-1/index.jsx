@@ -2,7 +2,7 @@
 import AnimatedText from "@/components/common/AnimatedText";
 import About from "@/components/homes/home-1/About";
 import Benefits from "@/components/homes/home-1/Benefits";
-import Blog from "@/components/homes/home-1/Blog";
+// import Blog from "@/components/homes/home-1/Blog";
 import Brands from "@/components/homes/home-1/Brands";
 import Contact from "@/components/homes/home-1/Contact";
 import Facts from "@/components/homes/home-1/Facts";
@@ -318,7 +318,7 @@ export default function Home1({ onePage = false, dark = false }) {
           </div>
           {/*   qQQQQQQQQQQQQQQQQQQQQ */}
           {/* {DataFromSanity && <Blog DataFromSanity={DataFromSanity} />} */}
-          <Blog />
+          {/* <Blog /> */}
 
           {/* Blog Posts Grid */}
 

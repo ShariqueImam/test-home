@@ -1,19 +1,11 @@
 import Footer2 from "@/components/footers/Footer2";
-import dynamic from "next/dynamic";
 import Image from "next/image";
-const ParallaxContainer = dynamic(
-  () => import("@/components/common/ParallaxContainer"),
-  {
-    ssr: false, // Disable server-side rendering
-  }
-);
 import Header10 from "@/components/headers/Header10";
 import React from "react";
 import Faq from "@/components/common/Faq";
 import { strongMultiPages } from "@/data/menu";
 import Contact2 from "@/components/homes/home-1/Contact2";
 
-const dark = false;
 
 export default function MainAboutPage1() {
   return (

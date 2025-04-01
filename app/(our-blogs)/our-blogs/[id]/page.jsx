@@ -4,7 +4,6 @@ import Image from "next/image";
 import ContactForBlog from "@/components/myComponents/ContactForBlog";
 import Header10 from "@/components/headers/Header10";
 import AnimatedText from "@/components/common/AnimatedText";
-import { tags } from "@/data/tags";
 import { strongMultiPages } from "@/data/menu";
 import client from "@/app/client";
 import { urlForThumbnail } from "@/app/sanity-image-builder";
@@ -23,7 +22,7 @@ export default function MainBlogSinglePageFullWidth({ params }) {
   // const DataFromSanity = await getData();
   const filteredBlog = DataFromSanity.filter((elm) => elm.id == params.id);
   let blog = filteredBlog[0];
-
+console.log(blog)
   return (
     <>
       <div className="theme-main">

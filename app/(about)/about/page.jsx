@@ -9,7 +9,6 @@ const ParallaxContainer = dynamic(
     ssr: false, // Disable server-side rendering
   }
 );
-
 import Header10 from "@/components/headers/Header10";
 import AnimatedText from "@/components/common/AnimatedText";
 import Image from "next/image";
@@ -17,17 +16,12 @@ import Link from "next/link";
 import About from "@/components/homes/home-1/About";
 import Team from "@/components/homes/home-1/Team";
 import Benefits from "@/components/homes/home-1/Benefits";
-import Testimonials2 from "@/components/homes/home-1/Teatimonials2";
-import Testimonials from "@/components/homes/home-1/Testimonials";
-import Brands2 from "@/components/homes/home-1/Brands2";
-import Brands from "@/components/homes/home-1/Brands";
 import Features from "@/components/homes/home-1/Features";
-import Promo from "@/components/homes/home-1/Promo";
-import Faq from "@/components/homes/home-1/Faq";
 import { strongMultiPages } from "@/data/menu";
 
 export const metadata = {
-  title: "Caregiving Management Management || Compassionate Caregiving Management Services",
+  title:
+    "Caregiving Management Management || Compassionate Caregiving Management Services",
   description:
     "Providing high-quality, compassionate Caregiving Management services tailored to support independence, dignity, and well-being. ",
 };
@@ -59,7 +53,6 @@ export default function MainAboutPage1() {
                           data-wow-duration="1.2s"
                         >
                           <a href="#aboutDetails"> About Our Company</a>
-                        
                         </h2>
                         <h1 className="hs-title-1 mb-30">
                           <span
@@ -76,8 +69,9 @@ export default function MainAboutPage1() {
                               data-wow-delay="0.6s"
                               data-wow-duration="1.2s"
                             >
-                              Dedicated to Compassionate, Personalized Caregiving Management
-                              for Comfort, Dignity, and Independence.
+                              Dedicated to Compassionate, Personalized
+                              Caregiving Management for Comfort, Dignity, and
+                              Independence.
                             </p>
                           </div>
                         </div>
@@ -111,10 +105,10 @@ export default function MainAboutPage1() {
               }`}
               id="aboutDetails"
             >
-              <div className="container position-relative" >
-                <div className="row mb-60 mb-xs-30" >
+              <div className="container position-relative">
+                <div className="row mb-60 mb-xs-30">
                   <div className="col-md-6">
-                    <h2 className="section-caption mb-xs-10" >Our Story</h2>
+                    <h2 className="section-caption mb-xs-10">Our Story</h2>
                     <h3 className="section-title mb-0">
                       <AnimatedText text="Learn about our experience and vision" />
                     </h3>

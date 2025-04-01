@@ -2,30 +2,32 @@
 import { blogs1 } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import client from "@/app/client";
 import { urlForThumbnail } from "@/app/sanity-image-builder";
 
-export default async function Blog() {
-  // const [Data, setData] = React.useState(null); // Store data in state
+export default function Blog() {
+  const [DataFromSanity, setDataFromSanity] = useState([]);
+  useEffect(() => {
+    async function fetchData() {
+      const data = await client.fetch(`*[_type == "blog"]`);
+      setDataFromSanity(data);
+    }
+    fetchData();
+  }, []);
+  console.log(DataFromSanity);
+  const filteredBlog = DataFromSanity.filter((elm) => elm.id == "3");
+  let blog = filteredBlog[0];
+  console.log(blog);
 
-  // async function GetProducts() {
-  //   let data = await client.fetch(`*[_type == "blog"]`);
-  //   setData(data);
+  // async function getData() {
+  //   return await client.fetch(`*[_type == "blog"]`);
   // }
-
-  // React.useEffect(() => {
-  //   GetProducts();
-  // }, []);
-
-  async function getData() {
-    return await client.fetch(`*[_type == "blog"]`);
-  }
-  const DataFromSanity = await getData();
-console.log('1t1')
+  // const DataFromSanity = await getData();
+  // console.log("1t1");
   return (
     <div className="row mt-n50">
-      {DataFromSanity?.map((elm, i) =>(
+      {DataFromSanity?.map((elm, i) => (
         <div
           key={i}
           className="post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft"

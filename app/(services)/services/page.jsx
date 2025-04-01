@@ -1,27 +1,15 @@
 import Footer2 from "@/components/footers/Footer2";
-
-import dynamic from "next/dynamic";
-const onePage = false;
-const dark = false;
-const ParallaxContainer = dynamic(
-  () => import("@/components/common/ParallaxContainer"),
-  {
-    ssr: false, // Disable server-side rendering
-  }
-);
-
 import Header10 from "@/components/headers/Header10";
 import AnimatedText from "@/components/common/AnimatedText";
 import { services6 } from "@/data/services";
 import Benefits2 from "@/components/homes/home-1/Benefits2";
-
 import Link from "next/link";
 import { features2 } from "@/data/features";
-import Pricing from "@/components/homes/home-1/Pricing";
 import Image from "next/image";
 import { strongMultiPages } from "@/data/menu";
 export const metadata = {
-  title: "Caregiving Management Management || Compassionate Caregiving Management Services",
+  title:
+    "Caregiving Management Management || Compassionate Caregiving Management Services",
   description:
     "Providing high-quality, compassionate Caregiving Management services tailored to support independence, dignity, and well-being. ",
 };
@@ -71,8 +59,8 @@ export default function MainServicesPage3() {
                             data-wow-delay="0.6s"
                             data-wow-duration="1.2s"
                           >
-                            Comprehensive Caregiving Management Services for Comfort,
-                            Independence, and Well-Being
+                            Comprehensive Caregiving Management Services for
+                            Comfort, Independence, and Well-Being
                           </p>
                         </div>
                       </div>
@@ -149,8 +137,10 @@ export default function MainServicesPage3() {
                   <div className="row text-center">
                     <div className="col-md-8 offset-md-2">
                       <p className="section-descr mb-50 mb-sm-40">
-                        Reach out today for compassionate, professional Caregiving Management services designed to support comfort, independence,
-                        and well-being for your loved ones.{" "}
+                        Reach out today for compassionate, professional
+                        Caregiving Management services designed to support
+                        comfort, independence, and well-being for your loved
+                        ones.{" "}
                       </p>
                       <div className="local-scroll">
                         <Link
@@ -184,10 +174,10 @@ export default function MainServicesPage3() {
                       Our Specialized Caregiving Management Services
                     </h2>
                     <p className="mb-50 mb-sm-40">
-                      We offer personalized, compassionate Caregiving Management services
-                      designed to support independence, comfort, and well-being,
-                      ensuring your loved ones receive the highest quality care
-                      tailored to their needs
+                      We offer personalized, compassionate Caregiving Management
+                      services designed to support independence, comfort, and
+                      well-being, ensuring your loved ones receive the highest
+                      quality care tailored to their needs
                     </p>
                     <div className="local-scroll mb-70 mb-sm-50">
                       <Link

@@ -3,19 +3,12 @@ import Footer2 from "@/components/footers/Footer2";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import React from "react";
-const ParallaxContainer = dynamic(
-  () => import("@/components/common/ParallaxContainer"),
-  {
-    ssr: false, // Disable server-side rendering
-  }
-);
 
 import Header10 from "@/components/headers/Header10";
 import Faq from "@/components/common/Faq";
 import { strongMultiPages } from "@/data/menu";
 import Careers from "@/components/homes/home-1/Careers";
 
-const dark = false;
 export const metadata = {
   title:
     "Caregiving Management Management || Compassionate Caregiving Management Services",
@@ -217,7 +210,9 @@ export default function MainAboutPage1() {
                           Qualifications: Respiratory therapy degree and state
                           licensure.
                         </p>
-                        <h2 className="h5 mt-2" id="applyForm">13. Caregiver</h2>
+                        <h2 className="h5 mt-2" id="applyForm">
+                          13. Caregiver
+                        </h2>
                         <p className="text-gray mb-0">
                           Responsibilities: General care assistance to patients
                           in their homes, focusing on companionship, personal
@@ -226,7 +221,7 @@ export default function MainAboutPage1() {
                           Qualifications: Some positions may require experience
                           or certification, but not always.
                         </p>
-                        <p className="text-gray mb-10" >
+                        <p className="text-gray mb-10">
                           These roles can be part-time or full-time, depending
                           on the needs of the patient or healthcare
                           organization. Most positions require specific training
