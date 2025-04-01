@@ -15,10 +15,10 @@ export default function Blog() {
     }
     fetchData();
   }, []);
-  console.log(DataFromSanity);
-  const filteredBlog = DataFromSanity.filter((elm) => elm.id == "3");
-  let blog = filteredBlog[0];
-  console.log(blog);
+  let elements = [];
+  for (let i = 0; i < DataFromSanity.length; i++) {
+    elements.push(DataFromSanity[i]);
+  }
 
   // async function getData() {
   //   return await client.fetch(`*[_type == "blog"]`);
@@ -27,16 +27,15 @@ export default function Blog() {
   // console.log("1t1");
   return (
     <div className="row mt-n50">
-      {DataFromSanity?.map((elm, i) => (
+      {elements?.map((elm) => (
         <div
-          key={i}
-          className="post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft"
+          className="post-prev col-md-6 col-lg-4 mt-50 "
           data-wow-delay="0.2s"
         >
           <div className="post-prev-container">
             <div className="post-prev-img">
               <Link href={`/our-blogs/${elm.id}`}>
-                <img
+                <Image
                   width={650}
                   height={412}
                   src={urlForThumbnail(elm.image)}
