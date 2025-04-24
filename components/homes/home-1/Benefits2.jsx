@@ -44,7 +44,7 @@ export default function Benefits2() {
               support for your loved ones
             </p>
             {/* Numbers */}
-            <div className="row mt-sm-n10">
+            {/* <div className="row mt-sm-n10">
               <div className="col-md-6 mt-sm-10">
                 <div className="number-3-title black">1,000+</div>
                 <div className="number-3-descr">Caregiving Management Visits</div>
@@ -53,7 +53,7 @@ export default function Benefits2() {
                 <div className="number-3-title black">99.9%</div>
                 <div className="number-3-descr">Satisfied Customers</div>
               </div>
-            </div>
+            </div> */}
             {/* End Numbers */}
           </div>
         </div>

@@ -128,7 +128,7 @@ export default function Contact2() {
                       caregivingmanagementllc@gmail.com
                     </a>
                   </div>
-                  <a href="tel:+12406449874">+1 240 644 9874</a>
+                  <a href="tel:+12406449874">(240) 644 9874</a>
                 </div>
               </div>
             </div>

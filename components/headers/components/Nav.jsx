@@ -33,7 +33,7 @@ export default function OnePageNav({ links, animateY = false }) {
             <Link
               className={
                 pathname.split("/")[1] == link.href.split("/")[1]
-                  ? "active"
+                  ? "active border-b-2"
                   : ""
               }
               href={link.href}

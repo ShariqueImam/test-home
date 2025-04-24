@@ -147,8 +147,7 @@ export default function Home1({ onePage = false, dark = false }) {
                 className="section-descr mb-40 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                We provide the care to make people live their lives to the
-                fullest
+                We provide the right care you need and can help manage it
               </p>
               <div className="local-scroll wow fadeInUp" data-wow-delay="0.2s">
                 <Link

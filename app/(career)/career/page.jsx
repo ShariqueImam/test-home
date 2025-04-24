@@ -81,7 +81,7 @@ export default function MainAboutPage1() {
                         <p className="text-gray mb-0">
                           Are you passionate about providing compassionate care?
                           Join the team at Caregiving Management and make a
-                          difference in the lives of the elderly.{" "}
+                          difference in the lives of the others.{" "}
                         </p>
                         <p className="text-gray mb-0">
                           In home healthcare, several positions are available,

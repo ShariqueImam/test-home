@@ -9,7 +9,7 @@ export default function Service() {
         <div className="col-lg-6 mb-md-60 mb-sm-30">
           <h2 className="section-caption mb-xs-10">Our Services</h2>
           <h3 className="section-title mb-30">
-            <AnimatedText text="We provide the best Caregiving Management" />
+            <AnimatedText text="We provide high quality care" />
           </h3>
           <div className="row">
             <div className="col-lg-10">
@@ -35,7 +35,8 @@ export default function Service() {
                 aria-selected="true"
                 data-bs-toggle="tab"
               >
-                Caregiving Management <span className="number">01</span>
+                Caregiving Management 
+                {/* <span className="number">01</span> */}
               </a>
             </li>
             <li role="presentation">
@@ -46,7 +47,8 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Companionship <span className="number">02</span>
+                Companionship
+                 {/* <span className="number">02</span> */}
               </a>
             </li>
             <li role="presentation">
@@ -57,7 +59,8 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Personal Care <span className="number">03</span>
+                Personal Care 
+                {/* <span className="number">03</span> */}
               </a>
             </li>
             <li role="presentation">
@@ -68,7 +71,8 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Hygiene Care <span className="number">04</span>
+                Hygiene Care 
+                {/* <span className="number">04</span> */}
               </a>
             </li>
             {/* <li role="presentation">

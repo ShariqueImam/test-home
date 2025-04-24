@@ -1,25 +1,60 @@
 export const testimonials = [
   {
-    quote: `The caregivers are kind, professional, and truly care about my mother’s well-being. Their support has given us peace of mind, knowing she’s in good hands every day.`,
-    author: "Michael Thompson",
+    quote: `I first met Sarah through the home care business that provided for my husband.  My husband, Don, suffered from Parkinson's and it was a long and very debilitating illness.  Sarah was efficient, knowledgeable and such a compassionate person.  We came to rely on her.  During this time I had to be hospitalized for a week.  Cannot say how comforting it was that Sarah was key in taking care of everything during that time.  My husband liked Sarah, found her professional and very pleasant at a most trying time.  We have kept in touch and remain friends.  I highly recommend Sarah.`,
+    author: "Linda Kornreich",
     role: "Companionship",
     image: "/assets/images/ts1-user.jpg",
   },
   {
-    quote: `I’m grateful for the companionship and care provided to my father. The team goes above and beyond, ensuring he feels safe, comfortable, and valued at all times.`,
-    author: "Linda Martinez",
+    quote: `To Whom It May Concern,
+I am pleased to provide a reference for Sarah, the owner of Caregiving Management LLC, who cared for my loved one, Brad Stranigan, during 2019 and 2020. Throughout this time, Sarah demonstrated exceptional care, professionalism, and compassion in her role as a caregiver.
+
+Sarah not only provided Brad with high-quality, personalized care but also managed his medication regimen, ensuring that he took the correct doses at the appropriate times. She was meticulous in following medical instructions and coordinating with healthcare providers to ensure Brad's health and well-being were always a priority. Her attention to detail in managing his medications was a key part of the excellent care she provided.
+
+Sarah consistently went above and beyond, taking the time to understand Brad’s unique needs and ensuring that he was always comfortable, safe, and well-cared for. Her genuine kindness and dedication made a lasting impact on both Brad and our family.
+
+Her reliability and punctuality were always evident, and she maintained a structured routine that helped Brad feel at ease. Sarah also communicated effectively with our family about his progress and any changes in his care, providing us with peace of mind throughout the entire caregiving process.
+
+I wholeheartedly recommend Sarah for any caregiving role. Her expertise, leadership, and dedication to providing outstanding care make her an asset to anyone in need of support.`,
+    author: "Lorena Gonzalez",
     role: "Companionship and Personal Care",
     image: "/assets/images/ts1-user.jpg",
   },
   {
-    quote: `The personal care services have been life-changing for my grandmother. She feels independent and respected, and we are so thankful for the compassionate team making a difference in her life.`,
-    author: "James Anderson",
+    quote: `TTo whom it may concern,
+My name is Julio A. Orozco, and I am the Lead pastor of Grace Community Church in Germantown, MD. I
+have served in this role for the last 15 years.
+I have personally known Sarah for the last 10+ years and can attest to her hard-working character, caring
+disposition, and passion for her job.
+In our church community, Sarah has always been a service-oriented member. She is involved, and has
+volunteered to lead different initiatives such as: prayer walks, outreach, community engagement, and
+most recently welcoming and greeting.
+Sarah has been a caring presence in our community by being attentive to ways we can improve and
+grow, vehicle living into our shared values. This stems from her passion to do things effectively and
+efficiently. On a personal level, I can share that Sarah was a caregiver and advocate for my uncle who
+struggled with a host of physical challenges, and informally with my grandmother on occasion at church
+events.
+Her care for people, knowledge of her vocation, and her expertise leads me to give her my strongest
+recommendation for anyone that would like to hire or work with her.
+
+With best regards,`,
+    author:
+      "Rev. Dr. Julio A. Orozco Lead Pastor Grace Community Church of the C&MA",
     role: "Personal And Hygiene Care",
     image: "/assets/images/ts1-user.jpg",
   },
   {
-    quote: `From cleaning to hygiene care, every service has been exceptional. The staff is reliable, warm, and dedicated to making my home a better place to live in.`,
-    author: "Sarah Johnson",
+    quote: `To Whom It May Concern,
+We have had the opportunity to have Sarah as a caregiver for my husband. She was
+always professional and provided comfort to my husband, even with delicate matters. Sarah
+was able to accommodate our schedule and was flexible when we needed care on short
+notice. She made my husband feel valued and a part of the caregiving process. Sarah went
+above and beyond the duties of a caregiver. She assisted with housekeeping and light
+cleaning as needed. We would highly recommend Sarah as a caregiver, both short-term and
+long-term.
+
+Very Respectfully,`,
+    author: "Diane Reader",
     role: "Cleaning and Hygiene Care",
     image: "/assets/images/ts1-user.jpg",
   },

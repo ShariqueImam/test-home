@@ -87,7 +87,7 @@ export default function MainAboutPage1() {
                           href={`/contact`}
                           className="btn btn-mod btn-large btn-round btn-hover-anim"
                         >
-                          <span>Get Caregiving Management</span>
+                          <span>Contact Us</span>
                         </Link>
                       </div>
                     </div>
